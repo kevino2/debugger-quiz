@@ -36,13 +36,15 @@ private Director director;
 
     @Test
     public void canGetBonus() {
-        assertEquals(2000, director.payBonus(), 0);
+        assertEquals(4000, director.payBonus(), 0);
     }
 
     @Test
     public void canGetBudget() {
         assertEquals(1000000, director.getBudget(), 0);
     }
+
+
 }
 
 
